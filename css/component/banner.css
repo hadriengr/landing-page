@@ -1,0 +1,16 @@
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(../../img/guinguette.jpg);
+	background-size: cover; 
+	background-position: center top;
+	padding: 150px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 50px;
+}
+.banner h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}

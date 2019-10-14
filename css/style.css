@@ -1,0 +1,37 @@
+@import url("component/avatar.css");
+@import url("component/button.css");
+@import url("component/container.css");
+@import url("component/banner.css");
+@import url("component/header.css");
+@import url("component/concept.css");
+@import url("component/formulaire.css");
+@import url("component/footer.css");
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Monoton|Vollkorn&display=swap');
+
+html{
+  margin: 0; padding: 0;
+}
+
+body {
+  font-family: 'Vollkorn', serif;
+  font-size: 18px;
+  margin: 0px;padding: 0;
+  background-color: black;
+}
+
+ h1,h2,h3,p{
+  font-family: 'Merriweather', serif;
+  font-style: bold; 
+  color: white;
+} 
+
+a{
+  text-decoration: none;
+}
+
+.inner {
+  width: 80%;
+  margin: auto;
+}
+

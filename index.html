@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L'HIPPO</title>
+		<meta name="Description" charset="utf-8">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" target='_blank' integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header" role="header" id="myheader">
+		<nav class="menu" role="navigation">
+			<div class="inner">
+				<div class="m-left">
+					<h1 class="logo">l'hippo</h1>
+				</div>
+				<div class="m-right">
+					<a class="m-link" href="#top"><i class="fa fa-home" style="margin-right: 5px;" aria-hidden="True"></i> Accueil</a>
+					<a class="m-link" href="#bar"><i class="fas fa-wine-glass-alt" style="margin-right: 5px;" aria-hidden="True"></i> Bar</a>
+					<a class="m-link" href="#food"><i class="fas fa-truck" style="margin-right: 5px;" aria-hidden="True"></i> Food Truck</a>
+					<a class="m-link" href="#scene"><i class="fas fa-music" style="margin-right: 5px;" aria-hidden="True"></i> Scène</a>
+					<a class="button" id="butt" href="https://forms.gle/djnEUyiruwXQ479u9"><i class="fa fa-envelope" style="margin-right: 5px;" aria-hidden="True"></i> Newsletter</a>
+
+				<div class="dropdown">
+    				<button class="dropbtn"><i class="resizing fas fa-bars" style="color: #71A0B0;"></i>
+				    </button>
+				    <div class="dropdown-content">
+     					<a href="#top">Accueil</a>
+     					<a href="#bar">Bar</a>
+     					<a href="#food">Food Truck</a>
+    					<a href="#scene">Scene</a>
+    				</div>
+				</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="banner" id="top" alt="guinguette">
+		<div class="container">
+			<h2>La Guinguette du 16ème arrondissement</h2>
+			<h3>Description du projet</h3>
+			<a class="button" href="https://forms.gle/djnEUyiruwXQ479u9"><i class="fa fa-envelope" style="margin-right: 5px;" aria-hidden="True"></i> Newsletter</a>
+		</div>
+	</div>
+	<div class="concept" id="bar" alt="lights">
+		<div class="card" >
+			<img src="img/trinc.jpg" alt="bar" class="avatar">
+			<br>
+			<h2>Bar</h2>
+			<h3>L'Hippo est une guinguette ouverte aux nouvelles expériences, le bar proposera une sélection de bières et vins français, de brasseurs et vignerons responsables.</h3>
+		</div>
+		<br id="food">
+		<div class="card" >
+			<img src="img/food.jpg" alt="foodtruck" class="avatar" >
+			<br>
+			<h2>Food Truck</h2>
+			<h3>Pour profiter au maximum de la guinguette, des food-trucks de restaurateurs locaux sélectionnés par nos soins seront disponible sur le site.</h3>
+			
+			
+		</div>
+		<br id="scene">
+		<div class="card" >
+			<img src="img/music.jpg" alt="scene" class="avatar" >
+			<br>
+			<h2>Scène</h2>
+			<h3>Musiciens, acteurs, peintres, une scène acceuillera tout type d'expériences, pourquoi pas vous-même !</h3>
+		</div>
+	</div>	
+
+	<footer class="container footer">
+		<h2 style="font-size: 50px;">Follow us</h2>
+			<a href="https://www.instagram.com/borntobealarve/">
+			<i class="resizing fab fa-instagram" aria-hidden="True"></i></a>
+			<a href="https://www.facebook.com/hadrien.gr">
+			<i class="resizing fab fa-facebook" aria-hidden="True"></i></a>
+	</footer>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myheader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } 
+  else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</body>
+</html>

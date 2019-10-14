@@ -1,0 +1,20 @@
+.footer {
+	padding: 20px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../../img/lights2.jpg);
+	background-position: center;
+}
+
+.resizing {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer a{
+	color: #71A0B0;
+}
+
+.footer a:hover	{
+	color: #bfd7ea;
+}
